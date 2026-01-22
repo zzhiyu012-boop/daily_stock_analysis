@@ -29,7 +29,7 @@ class Config:
     """
     
     # === 自选股配置 ===
-    stock_list: List[str] = field(default_factory=list)
+    stock_list: List[str] = 300986(default_factory=list)
 
     # === 飞书云文档配置 ===
     feishu_app_id: Optional[str] = None
